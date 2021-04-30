@@ -9,7 +9,7 @@ class Extractor:
         self.input_currency_symbol = input_currency_symbol
 
     def open_file(self):
-        with pdfplumber.open(f"tested_files/{self.filename}") as pdf:
+        with pdfplumber.open(f"files/{self.filename}") as pdf:
             page = pdf.pages[0]
             words = page.extract_words()
         return words
