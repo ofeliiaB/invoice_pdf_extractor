@@ -82,10 +82,7 @@ class Extractor:
         :param on_same_line_strings: set / list
         :return: list
         """
-        item_lines = []
-        for line in on_same_line_strings:
-            if line.count(currency_sign) > 1:
-                item_lines.append(line)
+        item_lines = [line for line in on_same_line_strings if line.count(currency_sign) > 1]
         return item_lines
 
     def structure_final_result(self, item_lines, currency_sign):
