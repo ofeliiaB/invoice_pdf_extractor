@@ -1,6 +1,6 @@
 ### Extractor Endpoint
 
-Extracts data about items listed in pdf files and returns json.
+Extracts data about items listed in pdf files and returns the data in a structured format.
 
 ### Requirements
 
