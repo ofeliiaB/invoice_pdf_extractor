@@ -23,5 +23,5 @@ Extracts data about items listed in pdf files and returns json.
 
 ### Notes
 
-- The files on which the project was tested/words successfully are in "tested_files" directory.
+- The files on which the project was tested/works successfully are in "tested_files" directory.
 
